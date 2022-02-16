@@ -28,4 +28,10 @@ public class Tablero extends Pane {
         //de esta clase
     }
     
+    //Hacer aqui tambien el movimiento de la serpiente
+    
+    //hacer tambien la aletoriedad de la comida y como sale en el tablero
+    
+    //en el caso de que los haya, aletoriedad de obstaculos
+    
 }
