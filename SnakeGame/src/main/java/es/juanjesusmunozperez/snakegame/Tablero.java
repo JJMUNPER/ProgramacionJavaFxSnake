@@ -13,9 +13,17 @@ import javafx.scene.paint.Color;
  */
 public class Tablero extends Pane {
     
+    int tablero [][];
+    short tamXTablero;
+    short tamYTablero;
+    
+    
     public Tablero(){
         //Darle color al fondo de la pantalla en el metodo que se ha creado para generar el panel
         //Se podria poner una imagen tambien
+        tamXTablero=100;
+        tamYTablero=100;
+        
         this.setBackground(new Background(new BackgroundFill(Color.CHOCOLATE, CornerRadii.EMPTY, Insets.EMPTY)));
         
         //aqui ira el tamaño de la pantalla, mirar la forma en la que esta hecha la clase tablero del cuatro en ralla 
